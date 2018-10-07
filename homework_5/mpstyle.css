@@ -1,0 +1,292 @@
+body {
+    margin: 0;
+    font-family: 'Gill Sans', sans-serif;
+    color: black;
+}
+
+/*********** HEAD ************/
+
+h1 {
+    font-family: 'Gill Sans', sans-serif;
+    font-style: bold;
+    font-size: 24pt;
+    background-color: white;
+    color: black;
+    padding-left: 75px;
+    padding-top: 15px;
+    float: left;
+    text-transform: uppercase;
+}
+
+h2 {
+    font-family: 'Gill Sans', sans-serif;
+    font-style: normal;
+    font-size: 16pt;
+    background-color: white;
+    color: black;
+    padding-right: 75px;
+    padding-top: 20px;
+    float: right;
+    word-spacing: 75px;
+}
+
+/*********** HOMEPAGE ************/
+
+/*** IMAGE ***/
+
+.img1 {
+    object-fit: cover;
+    width: 100%;
+    height: auto;
+    opacity: .85;
+}
+
+/*** TEXT ***/
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+h3 {
+    font-family: 'Gill Sans', sans-serif;
+    font-size: 48pt;
+    line-height: 0pt;
+    color: black;
+    text-align: center;
+}
+
+h4 {
+    font-family: 'Gill Sans', sans-serif;
+    font-size: 28pt;
+    color: black;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.corner {
+    position: absolute;
+    top: 85%;
+    left: 82%;
+    text-align:right;
+}
+
+p {
+    font-family: 'Gill Sans', sans-serif;
+    font-style: normal;
+    font-size: 12pt;
+    color: black;
+    padding-right: 75px;
+}
+
+/*********** BROWSE ************/
+
+
+/*** LIST ***/
+
+ul {
+    list-style-type: none;
+    margin-left: 75px;
+    margin-top: 75px;
+    padding: 0px;
+}
+
+li {
+    display: inline;
+    border: 2px solid black;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    font-family: 'Gill Sans', sans-serif;
+    font-style: bold;
+    font-size: 16pt;
+    color: black;
+    text-align: center;
+    margin-right: 30px;
+}
+
+/*** COVER IMG ***/
+
+.img1b {
+    object-fit: cover;
+    width: 100%;
+    height: 500px;
+}
+
+/*** PRODUCT CARD ***/
+
+h5 {
+    font-family: 'Gill Sans', sans-serif;
+    font-style: bold;
+    font-size: 48pt;
+    line-height: 0pt;
+    color: black;
+    text-align: left;
+    padding-left: 75px
+}
+
+.rect {
+    background-color: #E0E0E0;
+    width: 290px;
+    height: 470px;
+    margin-left: 75px;
+    margin-top: 75px;
+}
+
+.img2 {
+    padding-top: 17.5px;
+    padding-left: 17.5px;
+    object-fit: cover;
+    width: 255px;
+    height: 255px;
+}
+
+.products {
+    display: inline-block;
+}
+
+h6 {
+    font-family: 'Gill Sans', sans-serif;
+    font-style: normal;
+    font-size: 16pt;
+    line-height: 0pt
+    color: black;
+    text-align: left;
+}
+
+.prbr {
+    padding-left: 17.5px
+}
+
+.price {
+    font-family: 'Gill Sans', sans-serif;
+    font-style: normal;
+    font-size: 16pt;
+    line-height: 0pt
+    color: black;
+    text-align: right;
+    padding-right: 17.5px
+}
+
+/*********** DETAILS ************/
+
+/*** PRODUCT IMG ***/
+
+.img3 {
+    object-fit: cover;
+    width: 375px;
+    height: 375px;
+    padding-top: 25px;
+    padding-left: 25px;
+}
+
+.img3b {
+    object-fit: cover;
+    width: 100px;
+    height: 100px;
+    border: 1px solid black;
+    margin-left: 100px;
+}
+
+/*** DESCRIPTION ***/
+
+.rect2 {
+    background-color: #E0E0E0;
+    width: 100%;
+    height: 500px;
+}
+
+.desc {
+    margin-left: 225px;
+    padding-top: 25px;
+}
+
+/*** OPTIONS ***/
+
+.right {
+    display: inline-block;
+    width: calc(100% - 650px);
+    padding-left: 25px;
+}
+
+.traits {
+    font-style: italic;
+    font-size: 9;
+}
+
+.sizesli {
+    font-size: 10;
+    padding: 5px;
+}
+
+.sizesul {
+    margin-left: 0px;
+    margin-top: 0px;
+    margin-bottom: 30px;
+}
+
+.c1 {
+    background-color: #50C2E3;
+    height: 15px;
+    width: 15px;
+    padding-top: 0px;
+    border: none;
+    margin-right: 10px;
+}
+
+.c2 {
+    background-color: #E57AF6;
+    height: 15px;
+    width: 15px;
+    padding-top: 0px;
+    border: none;
+    margin-right: 10px;
+}
+
+.c3 {
+    background-color: #69884A;
+    height: 15px;
+    width: 15px;
+    padding-top: 0px;
+    border: none;
+    margin-right: 10px;
+}
+
+.c4 {
+    background-color: #F36C44;
+    height: 15px;
+    width: 15px;
+    padding-top: 0px;
+    border: none;
+    margin-right: 10px;
+}
+
+.colors {
+    margin-top: 0px;
+    margin-bottom: 30px;
+    margin-left: 25px;
+}
+
+.colorsb {
+    margin-left: 0px;
+    margin-top: 0px;
+    margin-bottom: 30px;
+}
+
+.button {
+    background-color: #50C2E3;
+    border-radius: 10px;
+    height: 30px;
+    width: 85px;
+    font-size: 14pt;
+    padding-top: 10px;
+    padding-left: 70px;
+}
+
+.qty {
+    font-size: 14pt;
+    margin-bottom: 40px;
+}
