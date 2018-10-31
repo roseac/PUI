@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <title>Muddy Paws</title>
+    <meta charset="UTF-8">
+    <!-- styles -->
+    <link rel="stylesheet" type="text/css" href="mpstyle.css">
+    <!-- fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Gill Sans" rel="stylesheet">
+    <!-- javascript -->
+    <script src="main.js" type="text/javascript"></script>
+</head>
+
+<body onload="update()">
+    <!-- navigation -->
+    <div>
+        <a href="homepage.html"><h1>Muddy Paws</h1></a>
+        <h2><a href="productbrowse.html">shop</a> about <a href="shoppingcart.html">cart</a></h2>
+    </div>
+    <div>
+        <hr width=100%>
+    </div>
+    <!-- item -->
+    <div>
+        <h5>Shopping Cart</h5>
+    </div>
+    <div id="rectcart">
+        <img src="Crazyberry.jpg" alt="Dog Harness" id="imgcart">
+        <div class = "mid">
+            <h6>Dog Harness $28</h6>
+            <p class="traits" id="colname2">Crazyberry</p>
+            <p class="traits" id= "size2">Small</p>
+        </div>
+        <div class="cartopt">
+            <p class="edit"><a href="productdetail.html">edit</a></p>
+            <p class="edit" onlick="deleteItem()">remove</p>
+        </div>
+    </div>
+    </div>
+    <!-- checkout -->
+    <div>
+        <p class="button checkout">check out</p></a>
+    </div>
+</body>
+
+</html>
