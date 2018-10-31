@@ -31,13 +31,15 @@ function selectSize(element, size) {
     productDetails.size = size;
 }
 
-// Track Selections + Add to Cart
+// Track Selections
 
 var productDetails = {
     color: "null",
     size: "null",
     img: "null"
 }
+
+// Add to Storage
 
 
 function addToCart() {
@@ -52,9 +54,11 @@ function addToCart() {
     localStorage.setItem("cart", cartStr);
 }
 
+// Update Cart with Info in Storage
+
 function update() {
     var setCart = JSON.parse(localStorage.getItem("cart"));
-    if (setCart !== undefined) {
+    if (setCart !== null) {
         for (var i=0; i<setCart.length; i++){
             var elem = setCart[i]
             var div = document.getElementById("rectcart");
@@ -70,6 +74,7 @@ function update() {
     item.parentNode.removeChild(item);
 }}
 
+// Delete Cart Item
 
 function deleteItem() {
     var item = document.getElementById("rectcart");
