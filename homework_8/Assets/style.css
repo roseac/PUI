@@ -1,0 +1,172 @@
+/*   Body                              */
+
+body {
+    margin: 0;
+    font-family: 'Gill Sans', sans-serif;
+    color: black;
+}
+
+/*   Load Page                              */
+
+/*   Bundt Pic       */
+
+.bundt {
+    object-fit: cover;
+    height: 150px;
+    width: 150px;
+}
+
+.center {
+    text-align: center;
+}
+
+.middle {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/*   Title/Sub       */
+
+.title {
+    font-size: 24pt;
+    line-height: 36pt;
+    letter-spacing: 16pt;
+    font-style: bold;
+    padding-left: 30px;
+}
+
+.subtitle {
+    font-size: 12pt;
+    line-height: 18pt;
+    padding-bottom: 20px;
+    padding-left: 30px;
+}
+
+.headt {
+    padding-top: 20px;
+}
+
+.headb {
+    padding-bottom: 20px;
+}
+
+/*   Link to Enter       */
+
+.click {
+    line-height: 72pt;
+    font-size: 10pt;
+}
+
+a, a:link, a:visited {
+    color: gray;
+    text-decoration: none
+}
+
+a:hover {
+    color: black;
+}
+
+/*   Background Info                              */
+
+.no-gutter > [class*='col-'] {
+    padding-right:0;
+    padding-left:0;
+}
+
+.bhead {
+    font-size: 16pt;
+    margin-bottom: 25px;
+    line-height: 20pt;
+    letter-spacing: 10pt;
+    padding-left: 50px;
+}
+
+p {
+    font-size: 10pt;
+    line-height: 15pt;
+    padding-top: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.right {
+    background-color: white;
+    margin-top: -100px;
+    padding: 50px;
+    border-top: 2pt solid #BA8D6B;
+    border-left: 2pt solid #BA8D6B;
+}
+
+.left {
+    background-color: white;
+    margin-top: -100px;
+    padding: 50px;
+    border-top: 2pt solid #BA8D6B;
+    border-right: 2pt solid #BA8D6B;
+}
+
+/*   Recipe                              */
+
+.recipe {
+    line-height: 150px;
+    background-color: rgba(186, 141, 107, 0.3);
+    margin-left: 50px;
+}
+
+ul {
+    padding-inline-start: 0px;
+    padding-top: 20px;
+    padding-bottom: 20px
+}
+
+li:hover {
+    background-color: rgba(186, 141, 107, 0.3);
+}
+
+li {
+    display: inline-block;
+    border: solid rgba(186, 141, 107) 2pt;
+    height: 150px;
+    width: 150px;
+    border-radius: 75px;
+    text-align: center;
+    font-size: 14pt;
+    line-height: 150px;
+    margin-left: calc((100% - 600px) / 5);
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.selected {
+    background-color: rgba(186, 141, 107, 0.3)
+}
+
+#cartoon {
+    object-fit: cover;
+    height: 200px;
+    width: 200px;
+    margin: auto;
+}
+
+#funfact {
+    width: 60%;
+    text-align: center;
+    margin: auto;
+    color: #C7491E;
+}
+
+.padtop {
+    display: inline-block;
+    padding-top: 40px;
+    margin-bottom: 0px;
+}
+
+#method {
+    padding-bottom: 100px;
+}
+
+.bottom {
+    height: 400px;
+}
